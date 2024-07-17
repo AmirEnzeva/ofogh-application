@@ -1,0 +1,81 @@
+%!Adobe-FontList 1.23
+%Locale:0x429
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Peyda-Bold
+FamilyName:Peyda
+StyleName:Bold
+FullName:Peyda Bold
+MenuName:Peyda
+StyleBits:2
+FamilyNameNative:Peyda
+StyleNameNative:Bold
+FullNameNative:Peyda Bold
+WritingScript:Arabic
+OutlineFileName:C:\Users\pc\Desktop\ofogh-aplication\Font\Peyda-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:201588
+FileModTime:1683105458
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Peyda Bold
+NameArray:0,Win,1,Peyda
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Peyda-Regular
+FamilyName:Peyda
+StyleName:Regular
+FullName:Peyda Regular
+MenuName:Peyda
+StyleBits:0
+FamilyNameNative:Peyda
+StyleNameNative:Regular
+FullNameNative:Peyda Regular
+WritingScript:Arabic
+OutlineFileName:C:\Users\pc\Desktop\ofogh-aplication\Font\Peyda-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:202264
+FileModTime:1683105458
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Peyda Regular
+NameArray:0,Win,1,Peyda
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PeydaWeb-Regular
+FamilyName:PeydaWeb
+StyleName:Regular
+FullName:PeydaWeb-Regular
+MenuName:PeydaWeb
+StyleBits:0
+FamilyNameNative:PeydaWeb
+StyleNameNative:Regular
+FullNameNative:PeydaWeb Regular
+WritingScript:Arabic
+OutlineFileName:C:\Users\pc\Desktop\ofogh-aplication\Font\PeydaWeb-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:51692
+FileModTime:1683105458
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,PeydaWeb-Regular
+NameArray:0,Win,1,PeydaWeb
+%EndFont
+

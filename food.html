@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl" class="theme-light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/style/bulma.css">
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body class="p-2">
+        <div class="app-header is-flex">
+            <div class="app-header__menu ">
+                <span class="fa fa-2x fa-bars app-header__icon menu-btn"></span>
+            </div>
+            <div class="app-header__profile ">
+                <article class="media is-flex is-align-items-center">
+                    <figure class="media-left">
+                      <p class="image is-64x64">
+                        <img class="is-rounded" src="/images/user-profile.svg" />
+                      </p>
+                    </figure>
+                    <div class="media-content">
+                        <div class="content has-text-white">
+                            <p class="has-text-white mb-0">کاربر فلانی</p>
+                            <small class="has-text-weight-light">برنامه نویس</small>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <!-- <div class="menu-bar p-3">
+            <ul>
+                <li class="menu-bar__item py-4 px-2 has-text-weight-bold mb-2 is-flex is-align-items-center"><span class="fa fa-moon-o ml-4"></span> ثبت مرخصی</li>
+                <li class="menu-bar__item py-4 px-2 has-text-weight-bold mb-2 is-flex is-align-items-center"><span class="fa fa-calendar ml-4"></span> گزارش ماهانه</li>
+                <li class="menu-bar__item py-4 px-2 has-text-weight-bold mb-2 is-flex is-align-items-center"><span class="fa fa-pie-chart ml-4"></span> لیست مرخصی</li>
+                <li class="menu-bar__item py-4 px-2 has-text-weight-bold mb-2 is-flex is-align-items-center"><span class="fa fa-id-card ml-4"></span> گزارش تفصیلی</li>
+            </ul>
+        </div> -->
+        <div class="columns mt-5">
+            <div class="column p-2 my-3 dish-box  dark-bg light-border-right-none right-0 is-flex is-align-items-center is-justify-content-space-between left-radius">
+                <figure class="image is-128x128" style="text-align: end;">
+                    <img class="is-pulled-rigth" src="/images/food/lunch.jfif" style="max-width: 55%; flex-basis: 50%; max-height: 100%;" alt="">
+                    
+                </figure>
+                <p class="has-text-white has-text-centered m-0" style="flex-basis: 50%;">نهار</p>
+            </div>
+            <div class="column p-2 my-3 dish-box  dark-bg light-border-left-none left-0 is-flex is-align-items-center is-justify-content-space-between right-radius">
+                <p class="has-text-white has-text-centered m-0" style="flex-basis: 50%;">صبحانه</p>
+                <figure class="image is-128x128">
+                    <img class="is-pulled-left" src="/images/food/breakfast.jfif" style="max-width: 55%; flex-basis: 50%; max-height: 100%;" alt="">
+                </figure>
+            </div>
+        </div>
+        <div class="columns">
+            <div class="column dark-bg light-border is-flex is-align-items-center is-justify-content-space-between">
+                <p> موجودی کیف پول <span id="chash"class="has-text-primary"> 666,666 </span></p>
+                <button class="button is-link " style="background-color: var(--color-blue);">
+                    <p>
+                        کیف پول 
+                    </p>
+                    <figure class="icon is-32x32 " >
+                        <img src="/images/food/wallet-balance.svg" alt="">
+                    </figure>
+                  </button> 
+            </div>
+        </div>
+        <footer class="app-footer">
+            <h1 class="subtitle has-text-white mt-3 has-text-centered app-footer-btn">دسترسی سریع</h1>
+            <ul class="grid fixed-grid has-1-cols px-2">
+                <li class="app-footer__item p-5 cell is-row-span-2-mobile has-text-weight-bold is-flex is-align-items-center is-justify-content-center dark-bg"><a href="#" class="app-footer__link link has-text-weight-light"><span class="fa fa-moon-o ml-4"></span> ثبت مرخصی</a></li>
+                <li class="app-footer__item p-5 cell has-text-weight-bold is-flex is-align-items-center is-justify-content-center dark-bg"><a href="#" class="app-footer__link link has-text-weight-light"><span class="fa fa-calendar ml-4"></span> گزارش ماهانه</a></li>
+                <li class="app-footer__item p-5 cell has-text-weight-bold is-flex is-align-items-center is-justify-content-center dark-bg"><a href="#" class="app-footer__link link has-text-weight-light"><span class="fa fa-pie-chart ml-4"></span> لیست مرخصی</a></li>
+                <li class="app-footer__item p-5 cell is-col-span-2 has-text-weight-bold is-flex is-align-items-center is-justify-content-center dark-bg"><a href="#" class="app-footer__link link has-text-weight-light"><span class="fa fa-id-card ml-4"></span> گزارش تفصیلی</a></li>
+            </ul>
+
+        </footer>
+            <div class="cover"></div>
+
+    <script src="/js/js.js"></script>
+
+</body>
+</html>
